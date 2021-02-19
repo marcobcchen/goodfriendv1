@@ -1,0 +1,237 @@
+﻿.kv{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #aed7f6;
+
+	@media (min-width: $media_sm) {
+		min-height: 700px;
+		overflow: hidden;
+	}
+
+	.bg{
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		min-height: 700px;
+		background: url(../images/index/bg.jpg) no-repeat center top;
+		background-size: auto 100%;
+
+		@include translateX(-50%);
+	}
+
+	.bg-m{
+		position: relative;
+	}
+
+	.kv-content{
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 1366px;
+		height: 1143px;
+		min-width: 1100px;
+		min-height: 914px;
+		transform-origin: center top;
+		@include translateX(-50%);
+
+		// background-color: rgba(40, 20, 20, 0.1);
+	}
+
+	.kv-title{
+		position: absolute;
+		left: 4%;
+    top: 14%;
+		width: 82%;
+
+		@media (min-width: $media_sm) {
+			left: 33%;
+			top: 18.5%;
+			width: 37%;
+		}
+
+		.pop-1{
+			position: absolute;
+			left: 8%;
+			top: 42%;
+			width: 11%;
+			@include animation(pop1 1.6s infinite);
+		}
+
+		.pop-2{
+			position: absolute;
+			left: 89%;
+    	top: 27%;
+			width: 11%;
+			@include animation(pop2 1s infinite);
+		}
+
+		.pop-3{
+			position: absolute;
+			left: 76%;
+			top: 81%;
+			width: 10%;
+			@include animation(pop3 1.3s infinite);
+		}
+	}
+
+	.richart-1{
+		position: absolute;
+		left: 2%;
+    bottom: 1%;
+		width: 23%;
+		
+		@media (min-width: $media_sm) {
+			left: 7%;
+			bottom: 1%;
+			width: 17%;
+		}
+	}
+
+	.richart-2{
+		position: absolute;
+		left: 26%;
+		bottom: 1%;
+		width: 28%;
+
+		img{
+			position: relative;
+			z-index: 2;
+		}
+
+		.hand{
+			position: absolute;
+			left: 58%;
+			top: 24%;
+			width: 40%;
+			transform-origin: 5% 80%;
+			@include animation(hand2 1.6s infinite);
+		}
+
+		@media (min-width: $media_sm) {
+			left: 27%;
+			bottom: 1%;
+			width: 22%;
+		}
+	}
+
+	.richart-3{
+		position: absolute;
+		left: 54%;
+		bottom: 1%;
+		width: 20.5%;
+
+		@media (min-width: $media_sm) {
+			left: 50%;
+			bottom: 1%;
+			width: 16.5%;
+		}
+	}
+
+	.richart-4{
+		position: absolute;
+		left: 74%;
+		bottom: 1%;
+		width: 22.5%;
+
+		.hand{
+			position: absolute;
+			left: 32%;
+			top: 37%;
+			width: 43%;
+			transform-origin: 5% 10%;
+			@include animation(hand4 1.6s infinite);
+		}
+
+		@media (min-width: $media_sm) {
+			left: 70%;
+			bottom: 1%;
+			width: 17.5%;
+		}
+	}
+}
+
+@keyframes pop1 {
+	0% {
+		opacity: 0;
+		@include transform(scale(0.5));
+	}
+	10% {
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	30% {
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	100% {
+		opacity: 0;
+		@include transform(scale(0.5));
+	}
+}
+
+@keyframes pop2 {
+	0% {
+		opacity: 0;
+		@include transform(scale(0.5));
+	}
+	10% {
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	30% {
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	100% {
+		opacity: 0;
+		@include transform(scale(0.5));
+	}
+}
+
+@keyframes pop3 {
+	0% {
+		opacity: 0;
+		@include transform(scale(0.5));
+	}
+	30% {
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	50% {
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	100% {
+		opacity: 0;
+		@include transform(scale(0.5));
+	}
+}
+
+@keyframes hand2 {
+	0% {
+		@include transform(rotate(0));
+	}
+	50% {
+		@include transform(rotate(-15deg));
+	}
+	100% {
+		@include transform(rotate(0));
+	}
+}
+
+@keyframes hand4 {
+	0% {
+		@include transform(rotate(0));
+	}
+	50% {
+		@include transform(rotate(-20deg));
+	}
+	100% {
+		@include transform(rotate(0));
+	}
+}
