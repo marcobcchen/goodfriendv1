@@ -362,14 +362,14 @@ main{
 		position: absolute;
 		right: 0;
 		top: 40%;
-		width: 71%;
+		width: 51%;
 		max-width: 535px;
 		pointer-events: none;
 		@include animation(upMotion 1.6s infinite);
 
 		@media (min-width: $media_sm) {
 			top: 35%;
-			width: 54%;
+			width: 34%;
 			max-width: 1052px;
 		}
 	}
@@ -377,14 +377,14 @@ main{
 	.wave-3{
 		position: absolute;
 		right: 0;
-		top: 50%;
-		width: 28%;
+		top: 40%;
+		width: 20%;
 		max-width: 210px;
 		pointer-events: none;
 
 		@media (min-width: $media_sm) {
-			top: 56%;
-			width: 17%;
+			top: 46%;
+			width: 10%;
 			max-width: 330px;
 		}
 	}
