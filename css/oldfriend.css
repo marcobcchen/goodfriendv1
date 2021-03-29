@@ -4874,145 +4874,145 @@ main { position: relative; }
 @media (min-width: 1200px) { /* line 142, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .date .day { font-size: 36px; } }
 /* line 154, ../_sass/css/page/_oldfriend.scss */
-.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; width: 100%; transform-origin: left top; }
-/* line 161, ../_sass/css/page/_oldfriend.scss */
+.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; transform-origin: left top; }
+/* line 162, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container h2 { color: #0d61c4; font-size: 28px; font-weight: 900; line-height: 1; margin: 0; margin-bottom: 5px; }
-@media (min-width: 768px) { /* line 161, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 162, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container h2 { font-size: 42px; } }
-/* line 173, ../_sass/css/page/_oldfriend.scss */
+/* line 174, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container h2 span { display: inline-block; padding: 6px; margin-right: 6px; background: url("../images/index/title_bg_2.png") no-repeat center center; background-size: contain; }
-@media (min-width: 768px) { /* line 173, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 174, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container h2 span { padding: 8px; margin-right: 9px; } }
-/* line 187, ../_sass/css/page/_oldfriend.scss */
+/* line 188, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container h3 { color: #0d61c4; font-size: 18px; font-weight: 500; letter-spacing: 0.5px; margin: 0; margin-bottom: 15px; }
-@media (min-width: 768px) { /* line 187, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 188, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container h3 { font-size: 28px; letter-spacing: -1px; } }
-/* line 201, ../_sass/css/page/_oldfriend.scss */
+/* line 202, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .icon-x { width: 9%; margin-bottom: 15px; }
-/* line 206, ../_sass/css/page/_oldfriend.scss */
+/* line 207, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; margin-left: -15%; }
-@media (min-width: 992px) { /* line 206, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 992px) { /* line 207, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container .des-container { margin-left: -10%; } }
-/* line 218, ../_sass/css/page/_oldfriend.scss */
+/* line 219, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des { margin-bottom: 10px; margin-right: 20px; }
-/* line 222, ../_sass/css/page/_oldfriend.scss */
+/* line 223, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des p { color: #3e454f; font-size: 14px; font-weight: 500; line-height: 1.8; margin: 0; }
-@media (min-width: 768px) { /* line 222, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 223, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container .des-container .des p { font-size: 18px; } }
-/* line 235, ../_sass/css/page/_oldfriend.scss */
+/* line 236, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .num { color: #0d61c4; position: relative; display: inline-block; padding: 0 10px; }
-/* line 241, ../_sass/css/page/_oldfriend.scss */
+/* line 242, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .num::before { content: ''; position: absolute; left: 50%; top: 50%; width: 100%; padding-top: 100%; background-color: #ffe401; border-radius: 50px; z-index: -1; transform: translate(-50%, -50%); }
-/* line 255, ../_sass/css/page/_oldfriend.scss */
+/* line 256, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .big { font-size: 24px; font-weight: 900; line-height: 1; }
-@media (min-width: 768px) { /* line 255, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 256, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container .des-container .des .big { font-size: 32px; } }
-/* line 265, ../_sass/css/page/_oldfriend.scss */
+/* line 266, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .small { font-size: 14px; font-weight: 500; }
-@media (min-width: 768px) { /* line 265, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 266, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container .des-container .des .small { font-size: 18px; } }
-/* line 274, ../_sass/css/page/_oldfriend.scss */
+/* line 275, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .xsmall { font-size: 12px; font-weight: 500; }
-@media (min-width: 768px) { /* line 274, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 275, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container .des-container .des .xsmall { font-size: 14px; } }
-/* line 283, ../_sass/css/page/_oldfriend.scss */
+/* line 284, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .ml { margin-left: 88px; }
-@media (min-width: 768px) { /* line 283, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 284, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .text-container .des-container .des .ml { font-size: 14px; } }
-/* line 291, ../_sass/css/page/_oldfriend.scss */
+/* line 292, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container .des-container .des .red { color: #e76162; }
-/* line 299, ../_sass/css/page/_oldfriend.scss */
+/* line 300, ../_sass/css/page/_oldfriend.scss */
 .kv .richart-left { position: absolute; left: 4%; top: 94%; width: 23%; z-index: 100; }
-/* line 306, ../_sass/css/page/_oldfriend.scss */
+/* line 307, ../_sass/css/page/_oldfriend.scss */
 .kv .richart-left .hand { position: absolute; left: 32%; top: 41%; width: 40%; transform-origin: 5% 10%; -moz-animation: hand 1.6s infinite; -webkit-animation: hand 1.6s infinite; animation: hand 1.6s infinite; }
 @keyframes hand { 0% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); }
   50% { -moz-transform: rotate(-20deg); -ms-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); transform: rotate(-20deg); }
   100% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); } }
-@media (min-width: 768px) { /* line 299, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 300, ../_sass/css/page/_oldfriend.scss */
   .kv .richart-left { left: 12%; top: 44%; width: 19%; } }
-/* line 334, ../_sass/css/page/_oldfriend.scss */
+/* line 335, ../_sass/css/page/_oldfriend.scss */
 .kv .richart-right { position: absolute; left: 80%; top: 92%; width: 18%; z-index: 100; }
-/* line 341, ../_sass/css/page/_oldfriend.scss */
+/* line 342, ../_sass/css/page/_oldfriend.scss */
 .kv .richart-right img { position: relative; z-index: 2; }
-/* line 346, ../_sass/css/page/_oldfriend.scss */
+/* line 347, ../_sass/css/page/_oldfriend.scss */
 .kv .richart-right .tail { position: absolute; left: 54%; top: 45%; width: 45%; transform-origin: 5% 80%; -moz-animation: tail 1.6s infinite; -webkit-animation: tail 1.6s infinite; animation: tail 1.6s infinite; }
 @keyframes tail { 0% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); }
   50% { -moz-transform: rotate(-15deg); -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); }
   100% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); } }
-@media (min-width: 768px) { /* line 334, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 335, ../_sass/css/page/_oldfriend.scss */
   .kv .richart-right { left: 68%; top: 28%; width: 16%; } }
 
-/* line 375, ../_sass/css/page/_oldfriend.scss */
+/* line 376, ../_sass/css/page/_oldfriend.scss */
 .content { position: relative; }
-/* line 378, ../_sass/css/page/_oldfriend.scss */
+/* line 379, ../_sass/css/page/_oldfriend.scss */
 .content .wave-1 { position: absolute; left: 0; top: 0; pointer-events: none; }
-/* line 385, ../_sass/css/page/_oldfriend.scss */
+/* line 386, ../_sass/css/page/_oldfriend.scss */
 .content .wave-2 { position: absolute; left: 0; bottom: 42%; width: 54%; max-width: 406px; pointer-events: none; }
-@media (min-width: 768px) { /* line 385, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 386, ../_sass/css/page/_oldfriend.scss */
   .content .wave-2 { bottom: 0; width: 48%; max-width: 933px; } }
-/* line 400, ../_sass/css/page/_oldfriend.scss */
+/* line 401, ../_sass/css/page/_oldfriend.scss */
 .content .wave-3 { position: absolute; left: 0; bottom: 0; pointer-events: none; }
-/* line 407, ../_sass/css/page/_oldfriend.scss */
+/* line 408, ../_sass/css/page/_oldfriend.scss */
 .content .main-content { background-color: #aed7f6; }
-/* line 411, ../_sass/css/page/_oldfriend.scss */
+/* line 412, ../_sass/css/page/_oldfriend.scss */
 .content .main-content .content-con { position: relative; z-index: 50; width: 100%; margin: 0 auto; overflow: auto; }
-@media (min-width: 768px) { /* line 411, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 412, ../_sass/css/page/_oldfriend.scss */
   .content .main-content .content-con { width: 94%; max-width: 1367px; } }
 
-/* line 430, ../_sass/css/page/_oldfriend.scss */
+/* line 431, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .richart { margin-top: 6%; }
-/* line 434, ../_sass/css/page/_oldfriend.scss */
+/* line 435, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .info { margin-bottom: 6%; padding: 20px 18px; border: 2px solid #00467d; background-color: #ffffff; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
-/* line 437, ../_sass/css/page/_oldfriend.scss */
+/* line 438, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .info p { margin: 0; }
-@media (min-width: 768px) { /* line 434, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 435, ../_sass/css/page/_oldfriend.scss */
   .content-1 .content-con .info { padding: 36px; } }
-/* line 450, ../_sass/css/page/_oldfriend.scss */
+/* line 451, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .info .number-left { position: absolute; left: -10px; top: -10px; width: 30px; line-height: 30px; background-color: #ffe401; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
-/* line 460, ../_sass/css/page/_oldfriend.scss */
+/* line 461, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .info .number-right { position: absolute; right: -10px; top: -10px; width: 30px; line-height: 30px; background-color: #ffe401; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
-/* line 470, ../_sass/css/page/_oldfriend.scss */
+/* line 471, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .info .arrow-right { position: absolute; right: -30px; top: 0; width: 35px; }
-/* line 477, ../_sass/css/page/_oldfriend.scss */
+/* line 478, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .info .arrow-left { position: absolute; left: -30px; top: 0; width: 35px; }
-/* line 485, ../_sass/css/page/_oldfriend.scss */
+/* line 486, ../_sass/css/page/_oldfriend.scss */
 .content-1 .content-con .step-description { margin-top: 8%; }
-@media (min-width: 768px) { /* line 485, ../_sass/css/page/_oldfriend.scss */
+@media (min-width: 768px) { /* line 486, ../_sass/css/page/_oldfriend.scss */
   .content-1 .content-con .step-description { margin-top: 0; } }
 
-/* line 495, ../_sass/css/page/_oldfriend.scss */
+/* line 496, ../_sass/css/page/_oldfriend.scss */
 .slide { position: relative; }
-/* line 498, ../_sass/css/page/_oldfriend.scss */
+/* line 499, ../_sass/css/page/_oldfriend.scss */
 .slide .frame { position: relative; z-index: 20; }
-/* line 503, ../_sass/css/page/_oldfriend.scss */
+/* line 504, ../_sass/css/page/_oldfriend.scss */
 .slide .view-con { position: absolute; left: 1.5%; top: 0; width: 97%; height: 96%; background-color: lightgray; border-radius: 15%; overflow: hidden; z-index: 10; }
-/* line 514, ../_sass/css/page/_oldfriend.scss */
+/* line 515, ../_sass/css/page/_oldfriend.scss */
 .slide .view-con .view { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
-/* line 521, ../_sass/css/page/_oldfriend.scss */
+/* line 522, ../_sass/css/page/_oldfriend.scss */
 .slide .view-con .view .mask { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: 0; }
-/* line 532, ../_sass/css/page/_oldfriend.scss */
+/* line 533, ../_sass/css/page/_oldfriend.scss */
 .slide .view-con .view-0 { left: 0; }
-/* line 536, ../_sass/css/page/_oldfriend.scss */
+/* line 537, ../_sass/css/page/_oldfriend.scss */
 .slide .view-con .view-1, .slide .view-con .view-2, .slide .view-con .view-3 { left: 100%; }
-/* line 541, ../_sass/css/page/_oldfriend.scss */
+/* line 542, ../_sass/css/page/_oldfriend.scss */
 .slide .step-con { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 30; }
-/* line 550, ../_sass/css/page/_oldfriend.scss */
+/* line 551, ../_sass/css/page/_oldfriend.scss */
 .slide .step-con .step { position: absolute; left: 0; top: 0; opacity: 0; }
-/* line 557, ../_sass/css/page/_oldfriend.scss */
+/* line 558, ../_sass/css/page/_oldfriend.scss */
 .slide .step-con .step-0 { top: 36%; }
-/* line 561, ../_sass/css/page/_oldfriend.scss */
+/* line 562, ../_sass/css/page/_oldfriend.scss */
 .slide .step-con .step-1 { top: 32%; }
-/* line 565, ../_sass/css/page/_oldfriend.scss */
+/* line 566, ../_sass/css/page/_oldfriend.scss */
 .slide .step-con .step-2 { top: 64%; }
-/* line 569, ../_sass/css/page/_oldfriend.scss */
+/* line 570, ../_sass/css/page/_oldfriend.scss */
 .slide .step-con .step-3 { top: 28%; }
-/* line 574, ../_sass/css/page/_oldfriend.scss */
+/* line 575, ../_sass/css/page/_oldfriend.scss */
 .slide .dot-con { display: flex; justify-content: center; align-items: center; padding-top: 4%; }
-/* line 580, ../_sass/css/page/_oldfriend.scss */
+/* line 581, ../_sass/css/page/_oldfriend.scss */
 .slide .dot-con div { margin: 0 5px; width: 10px; height: 10px; background-color: #2c6b9c; -moz-border-radius: 100px; -webkit-border-radius: 100px; border-radius: 100px; }
-/* line 588, ../_sass/css/page/_oldfriend.scss */
+/* line 589, ../_sass/css/page/_oldfriend.scss */
 .slide .dot-con div.active { background-color: #ffffff; }
-/* line 593, ../_sass/css/page/_oldfriend.scss */
+/* line 594, ../_sass/css/page/_oldfriend.scss */
 .slide .number-con { position: absolute; right: 0; top: 0; z-index: 40; }
-/* line 599, ../_sass/css/page/_oldfriend.scss */
+/* line 600, ../_sass/css/page/_oldfriend.scss */
 .slide .number-con div { position: absolute; right: 0; top: 0; opacity: 0; width: 30px; line-height: 30px; background-color: #ffe401; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }

@@ -4876,9 +4876,7 @@ main { position: relative; }
 @media (min-width: 1200px) { /* line 149, ../_sass/css/page/_newfriend.scss */
   .kv .kv-title .date .day { font-size: 36px; } }
 /* line 161, ../_sass/css/page/_newfriend.scss */
-.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; width: 80%; transform-origin: left top; }
-@media (min-width: 768px) { /* line 161, ../_sass/css/page/_newfriend.scss */
-  .kv .kv-title .text-container { width: 100%; } }
+.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; transform-origin: left top; }
 /* line 172, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container h2 { color: #0d61c4; font-size: 28px; font-weight: 900; line-height: 1; margin: 0; margin-bottom: 5px; }
 @media (min-width: 768px) { /* line 172, ../_sass/css/page/_newfriend.scss */
@@ -4898,143 +4896,143 @@ main { position: relative; }
 /* line 223, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des { margin-bottom: 10px; margin-right: 20px; }
 /* line 227, ../_sass/css/page/_newfriend.scss */
-.kv .kv-title .text-container .des-container .des p { color: #3e454f; font-size: 14px; font-weight: 500; line-height: 1.4; margin: 0; }
+.kv .kv-title .text-container .des-container .des p { color: #3e454f; font-size: 14px; font-weight: 500; line-height: 1.4; white-space: nowrap; margin: 0; }
 @media (min-width: 768px) { /* line 227, ../_sass/css/page/_newfriend.scss */
   .kv .kv-title .text-container .des-container .des p { font-size: 18px; } }
-/* line 240, ../_sass/css/page/_newfriend.scss */
+/* line 241, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .num { color: #0d61c4; position: relative; display: inline-block; padding: 0 10px; }
-/* line 246, ../_sass/css/page/_newfriend.scss */
+/* line 247, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .num::before { content: ''; position: absolute; left: 50%; top: 50%; width: 100%; padding-top: 100%; background-color: #ffe401; border-radius: 50px; z-index: -1; transform: translate(-50%, -50%); }
-/* line 260, ../_sass/css/page/_newfriend.scss */
+/* line 261, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .big { font-size: 24px; font-weight: 900; line-height: 1; }
-@media (min-width: 768px) { /* line 260, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 261, ../_sass/css/page/_newfriend.scss */
   .kv .kv-title .text-container .des-container .des .big { font-size: 32px; } }
-/* line 270, ../_sass/css/page/_newfriend.scss */
+/* line 271, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .small { font-size: 14px; font-weight: 500; }
-@media (min-width: 768px) { /* line 270, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 271, ../_sass/css/page/_newfriend.scss */
   .kv .kv-title .text-container .des-container .des .small { font-size: 18px; } }
-/* line 279, ../_sass/css/page/_newfriend.scss */
+/* line 280, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .xsmall { font-size: 12px; font-weight: 500; }
-@media (min-width: 768px) { /* line 279, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 280, ../_sass/css/page/_newfriend.scss */
   .kv .kv-title .text-container .des-container .des .xsmall { font-size: 14px; } }
-/* line 288, ../_sass/css/page/_newfriend.scss */
+/* line 289, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .ml { margin-left: 88px; }
-@media (min-width: 768px) { /* line 288, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 289, ../_sass/css/page/_newfriend.scss */
   .kv .kv-title .text-container .des-container .des .ml { font-size: 14px; } }
-/* line 296, ../_sass/css/page/_newfriend.scss */
+/* line 297, ../_sass/css/page/_newfriend.scss */
 .kv .kv-title .text-container .des-container .des .red { color: #e76162; }
-/* line 304, ../_sass/css/page/_newfriend.scss */
+/* line 305, ../_sass/css/page/_newfriend.scss */
 .kv .richart-left { position: absolute; left: 2%; top: 80%; width: 23%; z-index: 100; }
-/* line 311, ../_sass/css/page/_newfriend.scss */
+/* line 312, ../_sass/css/page/_newfriend.scss */
 .kv .richart-left img { position: relative; z-index: 2; }
-/* line 316, ../_sass/css/page/_newfriend.scss */
+/* line 317, ../_sass/css/page/_newfriend.scss */
 .kv .richart-left .tail { position: absolute; left: 7%; top: 51%; width: 50%; transform-origin: 85% 80%; -moz-animation: tail 1.6s infinite; -webkit-animation: tail 1.6s infinite; animation: tail 1.6s infinite; }
 @keyframes tail { 0% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); }
   50% { -moz-transform: rotate(-15deg); -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); }
   100% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); } }
-@media (min-width: 768px) { /* line 304, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 305, ../_sass/css/page/_newfriend.scss */
   .kv .richart-left { left: 12%; top: 46%; width: 19%; } }
-/* line 344, ../_sass/css/page/_newfriend.scss */
+/* line 345, ../_sass/css/page/_newfriend.scss */
 .kv .richart-right { position: absolute; left: 66%; top: 94%; width: 25%; z-index: 100; }
-/* line 351, ../_sass/css/page/_newfriend.scss */
+/* line 352, ../_sass/css/page/_newfriend.scss */
 .kv .richart-right img { position: relative; z-index: 2; }
-/* line 356, ../_sass/css/page/_newfriend.scss */
+/* line 357, ../_sass/css/page/_newfriend.scss */
 .kv .richart-right .hand { position: absolute; left: 0%; top: 24%; width: 45%; transform-origin: 100% 80%; -moz-animation: hand 1.6s infinite; -webkit-animation: hand 1.6s infinite; animation: hand 1.6s infinite; }
 @keyframes hand { 0% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); }
   50% { -moz-transform: rotate(-15deg); -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); }
   100% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); } }
-@media (min-width: 768px) { /* line 344, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 345, ../_sass/css/page/_newfriend.scss */
   .kv .richart-right { left: 65%; top: 40%; width: 24%; } }
 
-/* line 385, ../_sass/css/page/_newfriend.scss */
+/* line 386, ../_sass/css/page/_newfriend.scss */
 .content { position: relative; }
-/* line 391, ../_sass/css/page/_newfriend.scss */
+/* line 392, ../_sass/css/page/_newfriend.scss */
 .content .main-content .content-con { position: relative; z-index: 50; width: 100%; margin: 0 auto; overflow: auto; }
-@media (min-width: 768px) { /* line 391, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 392, ../_sass/css/page/_newfriend.scss */
   .content .main-content .content-con { width: 94%; max-width: 1367px; } }
-/* line 403, ../_sass/css/page/_newfriend.scss */
+/* line 404, ../_sass/css/page/_newfriend.scss */
 .content .main-content .content-con .des-con { margin-bottom: 4%; }
-/* line 406, ../_sass/css/page/_newfriend.scss */
+/* line 407, ../_sass/css/page/_newfriend.scss */
 .content .main-content .content-con .des-con .text-algin { text-align: center; }
-@media (min-width: 768px) { /* line 406, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 407, ../_sass/css/page/_newfriend.scss */
   .content .main-content .content-con .des-con .text-algin { text-align: left; } }
-/* line 414, ../_sass/css/page/_newfriend.scss */
+/* line 415, ../_sass/css/page/_newfriend.scss */
 .content .main-content .content-con .des-con .padding-con { padding-left: 0; }
-@media (min-width: 768px) { /* line 414, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 415, ../_sass/css/page/_newfriend.scss */
   .content .main-content .content-con .des-con .padding-con { padding-left: 10%; } }
-/* line 422, ../_sass/css/page/_newfriend.scss */
+/* line 423, ../_sass/css/page/_newfriend.scss */
 .content .main-content .content-con .des-con .des { margin-bottom: 4%; }
-/* line 426, ../_sass/css/page/_newfriend.scss */
+/* line 427, ../_sass/css/page/_newfriend.scss */
 .content .main-content .content-con .des-con .tips { transform-origin: left top; -moz-transform: scale(0.9); -ms-transform: scale(0.9); -webkit-transform: scale(0.9); transform: scale(0.9); }
 
-/* line 436, ../_sass/css/page/_newfriend.scss */
+/* line 437, ../_sass/css/page/_newfriend.scss */
 .content-1 .wave-1 { position: absolute; left: 0; top: 0; margin-top: 0; pointer-events: none; }
-/* line 444, ../_sass/css/page/_newfriend.scss */
+/* line 445, ../_sass/css/page/_newfriend.scss */
 .content-1 .wave-2 { position: absolute; left: 0; bottom: 0; width: 48%; max-width: 933px; pointer-events: none; }
-/* line 453, ../_sass/css/page/_newfriend.scss */
+/* line 454, ../_sass/css/page/_newfriend.scss */
 .content-1 .content-head { margin-top: 0; }
-/* line 457, ../_sass/css/page/_newfriend.scss */
+/* line 458, ../_sass/css/page/_newfriend.scss */
 .content-1 .main-content { background-color: #fff8c0; padding-bottom: 10%; }
-@media (min-width: 768px) { /* line 457, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 458, ../_sass/css/page/_newfriend.scss */
   .content-1 .main-content { padding-bottom: 0; } }
-/* line 465, ../_sass/css/page/_newfriend.scss */
+/* line 466, ../_sass/css/page/_newfriend.scss */
 .content-1 .main-content .pic-con-1 { margin-top: 4%; margin-bottom: 4%; }
-/* line 470, ../_sass/css/page/_newfriend.scss */
+/* line 471, ../_sass/css/page/_newfriend.scss */
 .content-1 .main-content .pic-con-2 { margin-top: -30%; }
 
-/* line 477, ../_sass/css/page/_newfriend.scss */
+/* line 478, ../_sass/css/page/_newfriend.scss */
 .content-2 .richart-head { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #fff8c0; }
-/* line 485, ../_sass/css/page/_newfriend.scss */
+/* line 486, ../_sass/css/page/_newfriend.scss */
 .content-2 .richart-head .richart { position: absolute; top: -16%; right: 1%; width: 46%; }
-/* line 493, ../_sass/css/page/_newfriend.scss */
+/* line 494, ../_sass/css/page/_newfriend.scss */
 .content-2 .content-head { margin-top: -8%; }
-@media (min-width: 768px) { /* line 493, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 494, ../_sass/css/page/_newfriend.scss */
   .content-2 .content-head { background-color: #fff8c0; } }
-/* line 501, ../_sass/css/page/_newfriend.scss */
+/* line 502, ../_sass/css/page/_newfriend.scss */
 .content-2 .main-content { background-color: #ffe401; padding-bottom: 18%; }
-@media (min-width: 768px) { /* line 501, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 502, ../_sass/css/page/_newfriend.scss */
   .content-2 .main-content { padding-bottom: 0; } }
-/* line 509, ../_sass/css/page/_newfriend.scss */
+/* line 510, ../_sass/css/page/_newfriend.scss */
 .content-2 .main-content .pic-con { margin-top: 10%; }
-/* line 513, ../_sass/css/page/_newfriend.scss */
+/* line 514, ../_sass/css/page/_newfriend.scss */
 .content-2 .main-content .richart-pc { position: relative; }
-/* line 516, ../_sass/css/page/_newfriend.scss */
+/* line 517, ../_sass/css/page/_newfriend.scss */
 .content-2 .main-content .richart-pc img { position: relative; z-index: 2; }
-/* line 521, ../_sass/css/page/_newfriend.scss */
+/* line 522, ../_sass/css/page/_newfriend.scss */
 .content-2 .main-content .richart-pc .tail { position: absolute; left: 0%; top: 45%; width: 60%; transform-origin: 85% 80%; -moz-animation: tail 1.6s infinite; -webkit-animation: tail 1.6s infinite; animation: tail 1.6s infinite; }
 @keyframes tail { 0% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); }
   50% { -moz-transform: rotate(-15deg); -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); }
   100% { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); } }
-/* line 546, ../_sass/css/page/_newfriend.scss */
+/* line 547, ../_sass/css/page/_newfriend.scss */
 .content-3 .wave-1 { position: absolute; left: 0; top: 0; width: 100%; pointer-events: none; }
-@media (min-width: 768px) { /* line 546, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 547, ../_sass/css/page/_newfriend.scss */
   .content-3 .wave-1 { width: 37%; max-width: 722px; } }
-/* line 559, ../_sass/css/page/_newfriend.scss */
+/* line 560, ../_sass/css/page/_newfriend.scss */
 .content-3 .wave-2 { position: absolute; right: 0; top: 40%; width: 51%; max-width: 535px; pointer-events: none; -moz-animation: upMotion 1.6s infinite; -webkit-animation: upMotion 1.6s infinite; animation: upMotion 1.6s infinite; }
-@media (min-width: 768px) { /* line 559, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 560, ../_sass/css/page/_newfriend.scss */
   .content-3 .wave-2 { top: 35%; width: 34%; max-width: 1052px; } }
-/* line 575, ../_sass/css/page/_newfriend.scss */
+/* line 576, ../_sass/css/page/_newfriend.scss */
 .content-3 .wave-3 { position: absolute; right: 0; top: 40%; width: 20%; max-width: 210px; pointer-events: none; }
-@media (min-width: 768px) { /* line 575, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 576, ../_sass/css/page/_newfriend.scss */
   .content-3 .wave-3 { top: 46%; width: 10%; max-width: 330px; } }
-/* line 590, ../_sass/css/page/_newfriend.scss */
+/* line 591, ../_sass/css/page/_newfriend.scss */
 .content-3 .richart-head { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #ffe401; }
-/* line 598, ../_sass/css/page/_newfriend.scss */
+/* line 599, ../_sass/css/page/_newfriend.scss */
 .content-3 .richart-head .richart { position: absolute; top: -8.5%; right: 1%; width: 40%; }
-/* line 606, ../_sass/css/page/_newfriend.scss */
+/* line 607, ../_sass/css/page/_newfriend.scss */
 .content-3 .content-head { position: relative; margin-top: 0; }
-@media (min-width: 768px) { /* line 606, ../_sass/css/page/_newfriend.scss */
+@media (min-width: 768px) { /* line 607, ../_sass/css/page/_newfriend.scss */
   .content-3 .content-head { background-color: #ffe401; } }
-/* line 617, ../_sass/css/page/_newfriend.scss */
+/* line 618, ../_sass/css/page/_newfriend.scss */
 .content-3 .main-content { background-color: #fff8c0; }
-/* line 620, ../_sass/css/page/_newfriend.scss */
+/* line 621, ../_sass/css/page/_newfriend.scss */
 .content-3 .main-content .pic-con { margin-top: 10%; }
-/* line 624, ../_sass/css/page/_newfriend.scss */
+/* line 625, ../_sass/css/page/_newfriend.scss */
 .content-3 .main-content .att { margin-top: -3%; margin-bottom: 4%; }
 
-/* line 631, ../_sass/css/page/_newfriend.scss */
+/* line 632, ../_sass/css/page/_newfriend.scss */
 .small-button { display: inline-block; color: #016cbf; padding: 6px 0px; margin-bottom: 8%; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
-/* line 638, ../_sass/css/page/_newfriend.scss */
+/* line 639, ../_sass/css/page/_newfriend.scss */
 .small-button:hover, .small-button:active, .small-button:focus { color: #016cbf; text-decoration: none; }
 
 @keyframes upMotion { 0% { -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); }

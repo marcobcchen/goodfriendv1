@@ -162,11 +162,11 @@ main{
 			position: absolute;
 			left: 22%;
 			top: 31%;
-			width: 80%;
+			// width: 80%;
 			transform-origin: left top;
 
 			@media (min-width: $media_sm) {
-				width: 100%;
+				// width: 100%;
 			}
 
 			h2{
@@ -230,6 +230,7 @@ main{
 						font-size: 14px;
 						font-weight: 500;
 						line-height: 1.4;
+						white-space: nowrap;
 						margin: 0;
 
 						@media (min-width: $media_sm) {
