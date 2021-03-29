@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap);
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2018 Twitter, Inc.
@@ -4839,27 +4839,91 @@ footer .copyright { margin: 0; padding: 18px 0; font-size: 12px; color: #3e454f;
 .kv .kv-title .pop-2 { position: absolute; left: 89%; top: 27%; width: 11%; -moz-animation: pop2 1s infinite; -webkit-animation: pop2 1s infinite; animation: pop2 1s infinite; }
 /* line 73, ../_sass/css/page/_index.scss */
 .kv .kv-title .pop-3 { position: absolute; left: 76%; top: 81%; width: 10%; -moz-animation: pop3 1.3s infinite; -webkit-animation: pop3 1.3s infinite; animation: pop3 1.3s infinite; }
-/* line 82, ../_sass/css/page/_index.scss */
-.kv .richart-1 { position: absolute; left: 2%; bottom: 1%; width: 23%; }
-@media (min-width: 768px) { /* line 82, ../_sass/css/page/_index.scss */
-  .kv .richart-1 { left: 7%; bottom: 1%; width: 17%; } }
+/* line 81, ../_sass/css/page/_index.scss */
+.kv .kv-title .date { display: flex; justify-content: space-between; align-items: flex-start; position: absolute; left: 30%; top: 0%; width: 60%; }
+/* line 91, ../_sass/css/page/_index.scss */
+.kv .kv-title .date p { margin: 0; }
 /* line 95, ../_sass/css/page/_index.scss */
-.kv .richart-2 { position: absolute; left: 26%; bottom: 1%; width: 28%; }
-/* line 101, ../_sass/css/page/_index.scss */
-.kv .richart-2 img { position: relative; z-index: 2; }
-/* line 106, ../_sass/css/page/_index.scss */
-.kv .richart-2 .hand { position: absolute; left: 58%; top: 24%; width: 40%; transform-origin: 5% 80%; -moz-animation: hand2 1.6s infinite; -webkit-animation: hand2 1.6s infinite; animation: hand2 1.6s infinite; }
+.kv .kv-title .date .line { flex-grow: 1; padding: 0 6px; }
 @media (min-width: 768px) { /* line 95, ../_sass/css/page/_index.scss */
+  .kv .kv-title .date .line { padding: 0 20px; } }
+/* line 103, ../_sass/css/page/_index.scss */
+.kv .kv-title .date .line hr { margin: 2px 0; border-color: #0d61c4; }
+@media (min-width: 768px) { /* line 103, ../_sass/css/page/_index.scss */
+  .kv .kv-title .date .line hr { margin: 12px 0; } }
+/* line 113, ../_sass/css/page/_index.scss */
+.kv .kv-title .date .year { color: #0d61c4; font-size: 13px; font-weight: 900; line-height: 1; }
+@media (min-width: 768px) { /* line 113, ../_sass/css/page/_index.scss */
+  .kv .kv-title .date .year { font-size: 17px; } }
+/* line 125, ../_sass/css/page/_index.scss */
+.kv .kv-title .date .day { color: #0d61c4; font-size: 20px; font-weight: 900; line-height: 1; }
+@media (min-width: 768px) { /* line 125, ../_sass/css/page/_index.scss */
+  .kv .kv-title .date .day { font-size: 36px; } }
+/* line 137, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; width: 90%; transform: scale(0.8); transform-origin: left top; }
+@media (min-width: 425px) { /* line 137, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container { transform: scale(1); } }
+/* line 149, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container h2 { color: #0d61c4; font-size: 28px; font-weight: 900; line-height: 1; margin: 0; margin-bottom: 5px; }
+@media (min-width: 768px) { /* line 149, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container h2 { font-size: 42px; } }
+/* line 161, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container h2 span { display: inline-block; padding: 6px; margin-right: 6px; background: url("../images/index/title_bg.png") no-repeat center center; background-size: contain; }
+@media (min-width: 768px) { /* line 161, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container h2 span { padding: 8px; margin-right: 9px; } }
+/* line 175, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container h3 { color: #0d61c4; font-size: 18px; font-weight: 500; letter-spacing: 17px; margin: 0; margin-bottom: 10px; }
+@media (min-width: 768px) { /* line 175, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container h3 { font-size: 28px; letter-spacing: 22px; } }
+/* line 189, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container h4 { color: #3e454f; font-size: 16px; font-weight: 500; line-height: 1.4; margin: 0; margin-bottom: 17px; }
+@media (min-width: 768px) { /* line 189, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container h4 { font-size: 22px; } }
+/* line 201, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container h4 span { position: relative; }
+/* line 204, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container h4 span::before { content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 80%; background-color: #ffe401; border-radius: 50px; z-index: -1; }
+/* line 218, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .icon-x { width: 9%; margin-bottom: 15px; }
+/* line 223, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .des-container { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; }
+/* line 229, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .des-container .des { margin-bottom: 10px; margin-right: 20px; }
+/* line 233, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .des-container .des p { color: #0d61c4; font-size: 14px; font-weight: 500; line-height: 1.4; margin: 0; }
+@media (min-width: 768px) { /* line 233, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container .des-container .des p { font-size: 18px; } }
+/* line 245, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .des-container .des .big { font-size: 24px; font-weight: 900; line-height: 1; }
+@media (min-width: 768px) { /* line 245, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container .des-container .des .big { font-size: 32px; } }
+/* line 255, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .des-container .des .small { font-size: 14px; font-weight: 500; }
+@media (min-width: 768px) { /* line 255, ../_sass/css/page/_index.scss */
+  .kv .kv-title .text-container .des-container .des .small { font-size: 18px; } }
+/* line 264, ../_sass/css/page/_index.scss */
+.kv .kv-title .text-container .des-container .des .red { color: #e76162; }
+/* line 272, ../_sass/css/page/_index.scss */
+.kv .richart-1 { position: absolute; left: 2%; bottom: 1%; width: 23%; }
+@media (min-width: 768px) { /* line 272, ../_sass/css/page/_index.scss */
+  .kv .richart-1 { left: 7%; bottom: 1%; width: 17%; } }
+/* line 285, ../_sass/css/page/_index.scss */
+.kv .richart-2 { position: absolute; left: 26%; bottom: 1%; width: 28%; }
+/* line 291, ../_sass/css/page/_index.scss */
+.kv .richart-2 img { position: relative; z-index: 2; }
+/* line 296, ../_sass/css/page/_index.scss */
+.kv .richart-2 .hand { position: absolute; left: 58%; top: 24%; width: 40%; transform-origin: 5% 80%; -moz-animation: hand2 1.6s infinite; -webkit-animation: hand2 1.6s infinite; animation: hand2 1.6s infinite; }
+@media (min-width: 768px) { /* line 285, ../_sass/css/page/_index.scss */
   .kv .richart-2 { left: 27%; bottom: 1%; width: 22%; } }
-/* line 122, ../_sass/css/page/_index.scss */
+/* line 312, ../_sass/css/page/_index.scss */
 .kv .richart-3 { position: absolute; left: 54%; bottom: 1%; width: 20.5%; }
-@media (min-width: 768px) { /* line 122, ../_sass/css/page/_index.scss */
+@media (min-width: 768px) { /* line 312, ../_sass/css/page/_index.scss */
   .kv .richart-3 { left: 50%; bottom: 1%; width: 16.5%; } }
-/* line 135, ../_sass/css/page/_index.scss */
+/* line 325, ../_sass/css/page/_index.scss */
 .kv .richart-4 { position: absolute; left: 74%; bottom: 1%; width: 22.5%; }
-/* line 141, ../_sass/css/page/_index.scss */
+/* line 331, ../_sass/css/page/_index.scss */
 .kv .richart-4 .hand { position: absolute; left: 32%; top: 37%; width: 43%; transform-origin: 5% 10%; -moz-animation: hand4 1.6s infinite; -webkit-animation: hand4 1.6s infinite; animation: hand4 1.6s infinite; }
-@media (min-width: 768px) { /* line 135, ../_sass/css/page/_index.scss */
+@media (min-width: 768px) { /* line 325, ../_sass/css/page/_index.scss */
   .kv .richart-4 { left: 70%; bottom: 1%; width: 17.5%; } }
 
 @keyframes pop1 { 0% { opacity: 0; -moz-transform: scale(0.5); -ms-transform: scale(0.5); -webkit-transform: scale(0.5); transform: scale(0.5); }

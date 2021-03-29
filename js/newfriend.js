@@ -37,6 +37,15 @@
       bg2Top = 80;
     }
 
+    var _r;
+    if(ww < 768){
+      _r = (ww * 0.8) / 360;
+    } else{
+      _r = $('.kv-title').innerWidth() / 504;
+    }
+
+    TweenMax.set($('.text-container'), {scale: _r});
+
     onScroll();
   }
 

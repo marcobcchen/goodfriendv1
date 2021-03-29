@@ -35,6 +35,15 @@
     }
 
     onScroll();
+
+    var _r;
+    if(ww < 768){
+      _r = (ww * 0.8) / 420;
+    } else{
+      _r = $('.kv-title').innerWidth() / 504;
+    }
+
+    TweenMax.set($('.text-container'), {scale: _r});
   }
 
   function onScroll(){
@@ -46,5 +55,7 @@
     // TweenMax.to($bg1, 0.4, {top: bg1Top - (ratio * 30) + '%'})
     // TweenMax.to($bg2, 0.4, {top: bg2Top - (ratio * 20) + '%'})
   }
+
+  
   
 })();
