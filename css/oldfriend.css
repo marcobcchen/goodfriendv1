@@ -4866,9 +4866,9 @@ main { position: relative; }
 @media (min-width: 768px) { /* line 120, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .date .line hr { margin: 12px 0; } }
 /* line 130, ../_sass/css/page/_oldfriend.scss */
-.kv .kv-title .date .year { color: #0d61c4; font-size: 13px; font-weight: 900; line-height: 1; }
+.kv .kv-title .date .year { color: #0d61c4; font-size: 17px; font-weight: 900; line-height: 1; }
 @media (min-width: 1200px) { /* line 130, ../_sass/css/page/_oldfriend.scss */
-  .kv .kv-title .date .year { font-size: 17px; } }
+  .kv .kv-title .date .year { font-size: 21px; } }
 /* line 142, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .date .day { color: #0d61c4; font-size: 20px; font-weight: 900; line-height: 1; }
 @media (min-width: 1200px) { /* line 142, ../_sass/css/page/_oldfriend.scss */
