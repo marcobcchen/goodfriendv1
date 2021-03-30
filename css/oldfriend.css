@@ -4874,7 +4874,7 @@ main { position: relative; }
 @media (min-width: 1200px) { /* line 142, ../_sass/css/page/_oldfriend.scss */
   .kv .kv-title .date .day { font-size: 36px; } }
 /* line 154, ../_sass/css/page/_oldfriend.scss */
-.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; transform-origin: left top; }
+.kv .kv-title .text-container { position: absolute; left: 22%; top: 31%; width: 100%; max-width: 600px; transform-origin: left top; }
 /* line 162, ../_sass/css/page/_oldfriend.scss */
 .kv .kv-title .text-container h2 { color: #0d61c4; font-size: 28px; font-weight: 900; line-height: 1; margin: 0; margin-bottom: 5px; }
 @media (min-width: 768px) { /* line 162, ../_sass/css/page/_oldfriend.scss */
